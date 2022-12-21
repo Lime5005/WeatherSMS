@@ -11,7 +11,7 @@ public class Function {
 
     @FunctionName("TimerTrigger-Java")
     public void run(
-            @TimerTrigger(name = "keepAliveTrigger", schedule = "0 30 7 * * *") String timerInfo,
+            @TimerTrigger(name = "keepAliveTrigger", schedule = "0 5 6 * * 1-6") String timerInfo,
             final ExecutionContext context) throws IOException {
 
         String todaysMessage = new DailyMessage().getTodaysMessage();

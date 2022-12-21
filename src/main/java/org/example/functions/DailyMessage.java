@@ -21,15 +21,28 @@ public class DailyMessage {
         Wttr.WttrResult wttr = new Wttr().getTodaysWeather();
 
         String affirmation = new Affirmation().getAffirmation();
-
-        return String.format(
-                "Good Morning %s 🌡%s\n" +
+        String quote = new QuoteGenerator().getQuote();
+        System.out.printf(
+                "Good Morning! %s🌡%s\n" +
                         "It's %s %s\n" +
                         "%s\n" +
-                        "🌈 Have a Great Day 🌈",
+                        "%s\n " +
+                        "✨ Have a Great Day ✨",
                 wttr.weather, wttr.temperature,
                 todaysDate, wttr.moonPhase,
-                affirmation
+                affirmation,
+                quote);
+
+        return String.format(
+                "Good Morning! %s🌡%s\n" +
+                        "It's %s %s\n" +
+                        "%s\n" +
+                        "%s\n " +
+                        "✨ Have a Great Day ✨",
+                wttr.weather, wttr.temperature,
+                todaysDate, wttr.moonPhase,
+                affirmation,
+                quote
         );
     }
 }
