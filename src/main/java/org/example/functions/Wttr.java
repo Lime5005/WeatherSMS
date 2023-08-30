@@ -22,7 +22,7 @@ public class Wttr {
 
     public WttrResult getTodaysWeather() throws IOException {
 
-        String url = String.format("https://wttr.in/%s?format=%%25l%%25c,%%25m,%%25t&m",
+        String url = String.format("https://wttr.in/%s?format=%%25c,%%25m,%%25t&m",
                 URLEncoder.encode(Config.WTTR_LOCATION, "UTF-8"));
 
 

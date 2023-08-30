@@ -13,7 +13,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <azure.functions.maven.plugin.version>1.22.0</azure.functions.maven.plugin.version>
-        <azure.functions.java.library.version>2.2.0</azure.functions.java.library.version>
+        <azure.functions.java.library.version>3.0.0</azure.functions.java.library.version>
         <functionAppName>lime-20221218201010414</functionAppName>
     </properties>
 
@@ -26,7 +26,7 @@
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>fluent-hc</artifactId>
-            <version>4.5.10</version>
+            <version>4.5.14</version>
         </dependency>
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
@@ -37,26 +37,26 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.9.10</version>
+            <version>2.15.2</version>
         </dependency>
         <dependency>
             <groupId>com.twilio.sdk</groupId>
             <artifactId>twilio</artifactId>
-            <version>7.42.0</version>
+            <version>9.2.5</version>
         </dependency>
 
         <!-- Test -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
-            <version>5.4.2</version>
+            <version>5.9.2</version>
             <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
-            <version>2.23.4</version>
+            <version>5.2.0</version>
             <scope>test</scope>
         </dependency>
 

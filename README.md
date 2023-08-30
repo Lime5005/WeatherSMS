@@ -4,9 +4,9 @@ A funny app to send yourself a SMS everyday about weather and a positive message
 Example:
 Good Morning! Paris🌧  🌡+12°C
 It's Wednesday, December 21 🌘
-🤔 Remember: Mistakes don't make you less capable 👍
+🤔 Remember: Mistakes don't make you less capable 👍  
 Today's Quote: You must welcome change as the rule but not as your ruler.  
--Denis Waitley
+-Denis Waitley  
 ✨ Have a Great Day ✨
 
 ## To run the application
